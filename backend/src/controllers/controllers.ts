@@ -5,7 +5,7 @@ import { log } from 'console';
 
 export const RootVoid = async (req: Request, res: Response) => {
 
-    return res.status(200).json({ message: "Bem vindo!" })
+    return res.status(200).json({ message: "Bem vindo" })
 
 
 }
